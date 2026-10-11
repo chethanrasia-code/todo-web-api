@@ -1073,11 +1073,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\cheth\\source\\repos\\TodoApi\\TodoApi\\tests\\TodoApi.UnitTests\\TodoApi.UnitTests.csproj",
+      "projectUniqueName": "C:\\Users\\cheth\\source\\repos\\todo-web-api\\TodoApi\\tests\\TodoApi.UnitTests\\TodoApi.UnitTests.csproj",
       "projectName": "TodoApi.UnitTests",
-      "projectPath": "C:\\Users\\cheth\\source\\repos\\TodoApi\\TodoApi\\tests\\TodoApi.UnitTests\\TodoApi.UnitTests.csproj",
+      "projectPath": "C:\\Users\\cheth\\source\\repos\\todo-web-api\\TodoApi\\tests\\TodoApi.UnitTests\\TodoApi.UnitTests.csproj",
       "packagesPath": "C:\\Users\\cheth\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\cheth\\source\\repos\\TodoApi\\TodoApi\\tests\\TodoApi.UnitTests\\obj\\",
+      "outputPath": "C:\\Users\\cheth\\source\\repos\\todo-web-api\\TodoApi\\tests\\TodoApi.UnitTests\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -1099,8 +1099,8 @@
           "framework": "net10.0",
           "targetAlias": "net10.0",
           "projectReferences": {
-            "C:\\Users\\cheth\\source\\repos\\TodoApi\\TodoApi\\src\\TodoApi.Application\\TodoApi.Application.csproj": {
-              "projectPath": "C:\\Users\\cheth\\source\\repos\\TodoApi\\TodoApi\\src\\TodoApi.Application\\TodoApi.Application.csproj"
+            "C:\\Users\\cheth\\source\\repos\\todo-web-api\\TodoApi\\src\\TodoApi.Application\\TodoApi.Application.csproj": {
+              "projectPath": "C:\\Users\\cheth\\source\\repos\\todo-web-api\\TodoApi\\src\\TodoApi.Application\\TodoApi.Application.csproj"
             }
           }
         }

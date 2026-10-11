@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\cheth\\source\\repos\\TodoApi\\TodoApi\\tests\\TodoApi.IntegrationTests\\TodoApi.IntegrationTests.csproj": {}
+    "C:\\Users\\cheth\\source\\repos\\todo-web-api\\TodoApi\\tests\\TodoApi.IntegrationTests\\TodoApi.IntegrationTests.csproj": {}
   },
   "projects": {
-    "C:\\Users\\cheth\\source\\repos\\TodoApi\\TodoApi\\src\\TodoApi.Api\\TodoApi.Api.csproj": {
+    "C:\\Users\\cheth\\source\\repos\\todo-web-api\\TodoApi\\src\\TodoApi.Api\\TodoApi.Api.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\cheth\\source\\repos\\TodoApi\\TodoApi\\src\\TodoApi.Api\\TodoApi.Api.csproj",
+        "projectUniqueName": "C:\\Users\\cheth\\source\\repos\\todo-web-api\\TodoApi\\src\\TodoApi.Api\\TodoApi.Api.csproj",
         "projectName": "TodoApi.Api",
-        "projectPath": "C:\\Users\\cheth\\source\\repos\\TodoApi\\TodoApi\\src\\TodoApi.Api\\TodoApi.Api.csproj",
+        "projectPath": "C:\\Users\\cheth\\source\\repos\\todo-web-api\\TodoApi\\src\\TodoApi.Api\\TodoApi.Api.csproj",
         "packagesPath": "C:\\Users\\cheth\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\cheth\\source\\repos\\TodoApi\\TodoApi\\src\\TodoApi.Api\\obj\\",
+        "outputPath": "C:\\Users\\cheth\\source\\repos\\todo-web-api\\TodoApi\\src\\TodoApi.Api\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -33,11 +33,11 @@
             "framework": "net10.0",
             "targetAlias": "net10.0",
             "projectReferences": {
-              "C:\\Users\\cheth\\source\\repos\\TodoApi\\TodoApi\\src\\TodoApi.Application\\TodoApi.Application.csproj": {
-                "projectPath": "C:\\Users\\cheth\\source\\repos\\TodoApi\\TodoApi\\src\\TodoApi.Application\\TodoApi.Application.csproj"
+              "C:\\Users\\cheth\\source\\repos\\todo-web-api\\TodoApi\\src\\TodoApi.Application\\TodoApi.Application.csproj": {
+                "projectPath": "C:\\Users\\cheth\\source\\repos\\todo-web-api\\TodoApi\\src\\TodoApi.Application\\TodoApi.Application.csproj"
               },
-              "C:\\Users\\cheth\\source\\repos\\TodoApi\\TodoApi\\src\\TodoApi.Infrastructure\\TodoApi.Infrastructure.csproj": {
-                "projectPath": "C:\\Users\\cheth\\source\\repos\\TodoApi\\TodoApi\\src\\TodoApi.Infrastructure\\TodoApi.Infrastructure.csproj"
+              "C:\\Users\\cheth\\source\\repos\\todo-web-api\\TodoApi\\src\\TodoApi.Infrastructure\\TodoApi.Infrastructure.csproj": {
+                "projectPath": "C:\\Users\\cheth\\source\\repos\\todo-web-api\\TodoApi\\src\\TodoApi.Infrastructure\\TodoApi.Infrastructure.csproj"
               }
             }
           }
@@ -525,14 +525,14 @@
         }
       }
     },
-    "C:\\Users\\cheth\\source\\repos\\TodoApi\\TodoApi\\src\\TodoApi.Application\\TodoApi.Application.csproj": {
+    "C:\\Users\\cheth\\source\\repos\\todo-web-api\\TodoApi\\src\\TodoApi.Application\\TodoApi.Application.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\cheth\\source\\repos\\TodoApi\\TodoApi\\src\\TodoApi.Application\\TodoApi.Application.csproj",
+        "projectUniqueName": "C:\\Users\\cheth\\source\\repos\\todo-web-api\\TodoApi\\src\\TodoApi.Application\\TodoApi.Application.csproj",
         "projectName": "TodoApi.Application",
-        "projectPath": "C:\\Users\\cheth\\source\\repos\\TodoApi\\TodoApi\\src\\TodoApi.Application\\TodoApi.Application.csproj",
+        "projectPath": "C:\\Users\\cheth\\source\\repos\\todo-web-api\\TodoApi\\src\\TodoApi.Application\\TodoApi.Application.csproj",
         "packagesPath": "C:\\Users\\cheth\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\cheth\\source\\repos\\TodoApi\\TodoApi\\src\\TodoApi.Application\\obj\\",
+        "outputPath": "C:\\Users\\cheth\\source\\repos\\todo-web-api\\TodoApi\\src\\TodoApi.Application\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -554,8 +554,8 @@
             "framework": "net10.0",
             "targetAlias": "net10.0",
             "projectReferences": {
-              "C:\\Users\\cheth\\source\\repos\\TodoApi\\TodoApi\\src\\TodoApi.Domain\\TodoApi.Domain.csproj": {
-                "projectPath": "C:\\Users\\cheth\\source\\repos\\TodoApi\\TodoApi\\src\\TodoApi.Domain\\TodoApi.Domain.csproj"
+              "C:\\Users\\cheth\\source\\repos\\todo-web-api\\TodoApi\\src\\TodoApi.Domain\\TodoApi.Domain.csproj": {
+                "projectPath": "C:\\Users\\cheth\\source\\repos\\todo-web-api\\TodoApi\\src\\TodoApi.Domain\\TodoApi.Domain.csproj"
               }
             }
           }
@@ -870,14 +870,14 @@
         }
       }
     },
-    "C:\\Users\\cheth\\source\\repos\\TodoApi\\TodoApi\\src\\TodoApi.Domain\\TodoApi.Domain.csproj": {
+    "C:\\Users\\cheth\\source\\repos\\todo-web-api\\TodoApi\\src\\TodoApi.Domain\\TodoApi.Domain.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\cheth\\source\\repos\\TodoApi\\TodoApi\\src\\TodoApi.Domain\\TodoApi.Domain.csproj",
+        "projectUniqueName": "C:\\Users\\cheth\\source\\repos\\todo-web-api\\TodoApi\\src\\TodoApi.Domain\\TodoApi.Domain.csproj",
         "projectName": "TodoApi.Domain",
-        "projectPath": "C:\\Users\\cheth\\source\\repos\\TodoApi\\TodoApi\\src\\TodoApi.Domain\\TodoApi.Domain.csproj",
+        "projectPath": "C:\\Users\\cheth\\source\\repos\\todo-web-api\\TodoApi\\src\\TodoApi.Domain\\TodoApi.Domain.csproj",
         "packagesPath": "C:\\Users\\cheth\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\cheth\\source\\repos\\TodoApi\\TodoApi\\src\\TodoApi.Domain\\obj\\",
+        "outputPath": "C:\\Users\\cheth\\source\\repos\\todo-web-api\\TodoApi\\src\\TodoApi.Domain\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -1211,14 +1211,14 @@
         }
       }
     },
-    "C:\\Users\\cheth\\source\\repos\\TodoApi\\TodoApi\\src\\TodoApi.Infrastructure\\TodoApi.Infrastructure.csproj": {
+    "C:\\Users\\cheth\\source\\repos\\todo-web-api\\TodoApi\\src\\TodoApi.Infrastructure\\TodoApi.Infrastructure.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\cheth\\source\\repos\\TodoApi\\TodoApi\\src\\TodoApi.Infrastructure\\TodoApi.Infrastructure.csproj",
+        "projectUniqueName": "C:\\Users\\cheth\\source\\repos\\todo-web-api\\TodoApi\\src\\TodoApi.Infrastructure\\TodoApi.Infrastructure.csproj",
         "projectName": "TodoApi.Infrastructure",
-        "projectPath": "C:\\Users\\cheth\\source\\repos\\TodoApi\\TodoApi\\src\\TodoApi.Infrastructure\\TodoApi.Infrastructure.csproj",
+        "projectPath": "C:\\Users\\cheth\\source\\repos\\todo-web-api\\TodoApi\\src\\TodoApi.Infrastructure\\TodoApi.Infrastructure.csproj",
         "packagesPath": "C:\\Users\\cheth\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\cheth\\source\\repos\\TodoApi\\TodoApi\\src\\TodoApi.Infrastructure\\obj\\",
+        "outputPath": "C:\\Users\\cheth\\source\\repos\\todo-web-api\\TodoApi\\src\\TodoApi.Infrastructure\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -1240,8 +1240,8 @@
             "framework": "net10.0",
             "targetAlias": "net10.0",
             "projectReferences": {
-              "C:\\Users\\cheth\\source\\repos\\TodoApi\\TodoApi\\src\\TodoApi.Application\\TodoApi.Application.csproj": {
-                "projectPath": "C:\\Users\\cheth\\source\\repos\\TodoApi\\TodoApi\\src\\TodoApi.Application\\TodoApi.Application.csproj"
+              "C:\\Users\\cheth\\source\\repos\\todo-web-api\\TodoApi\\src\\TodoApi.Application\\TodoApi.Application.csproj": {
+                "projectPath": "C:\\Users\\cheth\\source\\repos\\todo-web-api\\TodoApi\\src\\TodoApi.Application\\TodoApi.Application.csproj"
               }
             }
           }
@@ -1570,14 +1570,14 @@
         }
       }
     },
-    "C:\\Users\\cheth\\source\\repos\\TodoApi\\TodoApi\\tests\\TodoApi.IntegrationTests\\TodoApi.IntegrationTests.csproj": {
+    "C:\\Users\\cheth\\source\\repos\\todo-web-api\\TodoApi\\tests\\TodoApi.IntegrationTests\\TodoApi.IntegrationTests.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\cheth\\source\\repos\\TodoApi\\TodoApi\\tests\\TodoApi.IntegrationTests\\TodoApi.IntegrationTests.csproj",
+        "projectUniqueName": "C:\\Users\\cheth\\source\\repos\\todo-web-api\\TodoApi\\tests\\TodoApi.IntegrationTests\\TodoApi.IntegrationTests.csproj",
         "projectName": "TodoApi.IntegrationTests",
-        "projectPath": "C:\\Users\\cheth\\source\\repos\\TodoApi\\TodoApi\\tests\\TodoApi.IntegrationTests\\TodoApi.IntegrationTests.csproj",
+        "projectPath": "C:\\Users\\cheth\\source\\repos\\todo-web-api\\TodoApi\\tests\\TodoApi.IntegrationTests\\TodoApi.IntegrationTests.csproj",
         "packagesPath": "C:\\Users\\cheth\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\cheth\\source\\repos\\TodoApi\\TodoApi\\tests\\TodoApi.IntegrationTests\\obj\\",
+        "outputPath": "C:\\Users\\cheth\\source\\repos\\todo-web-api\\TodoApi\\tests\\TodoApi.IntegrationTests\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -1599,8 +1599,8 @@
             "framework": "net10.0",
             "targetAlias": "net10.0",
             "projectReferences": {
-              "C:\\Users\\cheth\\source\\repos\\TodoApi\\TodoApi\\src\\TodoApi.Api\\TodoApi.Api.csproj": {
-                "projectPath": "C:\\Users\\cheth\\source\\repos\\TodoApi\\TodoApi\\src\\TodoApi.Api\\TodoApi.Api.csproj"
+              "C:\\Users\\cheth\\source\\repos\\todo-web-api\\TodoApi\\src\\TodoApi.Api\\TodoApi.Api.csproj": {
+                "projectPath": "C:\\Users\\cheth\\source\\repos\\todo-web-api\\TodoApi\\src\\TodoApi.Api\\TodoApi.Api.csproj"
               }
             }
           }

@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "gsUYqa/p6C4=",
+  "dgSpecHash": "HkOrMonMjsg=",
   "success": true,
-  "projectFilePath": "C:\\Users\\cheth\\source\\repos\\TodoApi\\TodoApi\\tests\\TodoApi.IntegrationTests\\TodoApi.IntegrationTests.csproj",
+  "projectFilePath": "C:\\Users\\cheth\\source\\repos\\todo-web-api\\TodoApi\\tests\\TodoApi.IntegrationTests\\TodoApi.IntegrationTests.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\cheth\\.nuget\\packages\\azure.core\\1.47.1\\azure.core.1.47.1.nupkg.sha512",
     "C:\\Users\\cheth\\.nuget\\packages\\azure.identity\\1.14.2\\azure.identity.1.14.2.nupkg.sha512",
@@ -100,9 +100,9 @@
       "code": "NU1603",
       "level": "Warning",
       "message": "TodoApi.Api depends on OpenTelemetry (>= 1.4.0-rc7) but OpenTelemetry 1.4.0-rc7 was not found. OpenTelemetry 1.4.0 was resolved instead.",
-      "projectPath": "C:\\Users\\cheth\\source\\repos\\TodoApi\\TodoApi\\tests\\TodoApi.IntegrationTests\\TodoApi.IntegrationTests.csproj",
+      "projectPath": "C:\\Users\\cheth\\source\\repos\\todo-web-api\\TodoApi\\tests\\TodoApi.IntegrationTests\\TodoApi.IntegrationTests.csproj",
       "warningLevel": 1,
-      "filePath": "C:\\Users\\cheth\\source\\repos\\TodoApi\\TodoApi\\tests\\TodoApi.IntegrationTests\\TodoApi.IntegrationTests.csproj",
+      "filePath": "C:\\Users\\cheth\\source\\repos\\todo-web-api\\TodoApi\\tests\\TodoApi.IntegrationTests\\TodoApi.IntegrationTests.csproj",
       "libraryId": "OpenTelemetry",
       "targetGraphs": [
         "net10.0"
@@ -112,9 +112,9 @@
       "code": "NU1603",
       "level": "Warning",
       "message": "TodoApi.Api depends on OpenTelemetry.Exporter.Console (>= 1.4.0-rc7) but OpenTelemetry.Exporter.Console 1.4.0-rc7 was not found. OpenTelemetry.Exporter.Console 1.4.0 was resolved instead.",
-      "projectPath": "C:\\Users\\cheth\\source\\repos\\TodoApi\\TodoApi\\tests\\TodoApi.IntegrationTests\\TodoApi.IntegrationTests.csproj",
+      "projectPath": "C:\\Users\\cheth\\source\\repos\\todo-web-api\\TodoApi\\tests\\TodoApi.IntegrationTests\\TodoApi.IntegrationTests.csproj",
       "warningLevel": 1,
-      "filePath": "C:\\Users\\cheth\\source\\repos\\TodoApi\\TodoApi\\tests\\TodoApi.IntegrationTests\\TodoApi.IntegrationTests.csproj",
+      "filePath": "C:\\Users\\cheth\\source\\repos\\todo-web-api\\TodoApi\\tests\\TodoApi.IntegrationTests\\TodoApi.IntegrationTests.csproj",
       "libraryId": "OpenTelemetry.Exporter.Console",
       "targetGraphs": [
         "net10.0"
@@ -124,9 +124,9 @@
       "code": "NU1603",
       "level": "Warning",
       "message": "TodoApi.Api depends on OpenTelemetry.Extensions.Hosting (>= 1.4.0-rc7) but OpenTelemetry.Extensions.Hosting 1.4.0-rc7 was not found. OpenTelemetry.Extensions.Hosting 1.4.0 was resolved instead.",
-      "projectPath": "C:\\Users\\cheth\\source\\repos\\TodoApi\\TodoApi\\tests\\TodoApi.IntegrationTests\\TodoApi.IntegrationTests.csproj",
+      "projectPath": "C:\\Users\\cheth\\source\\repos\\todo-web-api\\TodoApi\\tests\\TodoApi.IntegrationTests\\TodoApi.IntegrationTests.csproj",
       "warningLevel": 1,
-      "filePath": "C:\\Users\\cheth\\source\\repos\\TodoApi\\TodoApi\\tests\\TodoApi.IntegrationTests\\TodoApi.IntegrationTests.csproj",
+      "filePath": "C:\\Users\\cheth\\source\\repos\\todo-web-api\\TodoApi\\tests\\TodoApi.IntegrationTests\\TodoApi.IntegrationTests.csproj",
       "libraryId": "OpenTelemetry.Extensions.Hosting",
       "targetGraphs": [
         "net10.0"
@@ -136,9 +136,9 @@
       "code": "NU1902",
       "level": "Warning",
       "message": "Package 'OpenTelemetry.Api' 1.4.0 has a known moderate severity vulnerability, https://github.com/advisories/GHSA-g94r-2vxg-569j",
-      "projectPath": "C:\\Users\\cheth\\source\\repos\\TodoApi\\TodoApi\\tests\\TodoApi.IntegrationTests\\TodoApi.IntegrationTests.csproj",
+      "projectPath": "C:\\Users\\cheth\\source\\repos\\todo-web-api\\TodoApi\\tests\\TodoApi.IntegrationTests\\TodoApi.IntegrationTests.csproj",
       "warningLevel": 1,
-      "filePath": "C:\\Users\\cheth\\source\\repos\\TodoApi\\TodoApi\\tests\\TodoApi.IntegrationTests\\TodoApi.IntegrationTests.csproj",
+      "filePath": "C:\\Users\\cheth\\source\\repos\\todo-web-api\\TodoApi\\tests\\TodoApi.IntegrationTests\\TodoApi.IntegrationTests.csproj",
       "libraryId": "OpenTelemetry.Api",
       "targetGraphs": [
         "net10.0"
@@ -148,9 +148,9 @@
       "code": "NU1902",
       "level": "Warning",
       "message": "Package 'OpenTelemetry.Instrumentation.AspNetCore' 1.0.0-rc9 has a known moderate severity vulnerability, https://github.com/advisories/GHSA-vh2m-22xx-q94f",
-      "projectPath": "C:\\Users\\cheth\\source\\repos\\TodoApi\\TodoApi\\tests\\TodoApi.IntegrationTests\\TodoApi.IntegrationTests.csproj",
+      "projectPath": "C:\\Users\\cheth\\source\\repos\\todo-web-api\\TodoApi\\tests\\TodoApi.IntegrationTests\\TodoApi.IntegrationTests.csproj",
       "warningLevel": 1,
-      "filePath": "C:\\Users\\cheth\\source\\repos\\TodoApi\\TodoApi\\tests\\TodoApi.IntegrationTests\\TodoApi.IntegrationTests.csproj",
+      "filePath": "C:\\Users\\cheth\\source\\repos\\todo-web-api\\TodoApi\\tests\\TodoApi.IntegrationTests\\TodoApi.IntegrationTests.csproj",
       "libraryId": "OpenTelemetry.Instrumentation.AspNetCore",
       "targetGraphs": [
         "net10.0"
@@ -160,9 +160,9 @@
       "code": "NU1902",
       "level": "Warning",
       "message": "Package 'OpenTelemetry.Instrumentation.Http' 1.0.0-rc9 has a known moderate severity vulnerability, https://github.com/advisories/GHSA-vh2m-22xx-q94f",
-      "projectPath": "C:\\Users\\cheth\\source\\repos\\TodoApi\\TodoApi\\tests\\TodoApi.IntegrationTests\\TodoApi.IntegrationTests.csproj",
+      "projectPath": "C:\\Users\\cheth\\source\\repos\\todo-web-api\\TodoApi\\tests\\TodoApi.IntegrationTests\\TodoApi.IntegrationTests.csproj",
       "warningLevel": 1,
-      "filePath": "C:\\Users\\cheth\\source\\repos\\TodoApi\\TodoApi\\tests\\TodoApi.IntegrationTests\\TodoApi.IntegrationTests.csproj",
+      "filePath": "C:\\Users\\cheth\\source\\repos\\todo-web-api\\TodoApi\\tests\\TodoApi.IntegrationTests\\TodoApi.IntegrationTests.csproj",
       "libraryId": "OpenTelemetry.Instrumentation.Http",
       "targetGraphs": [
         "net10.0"

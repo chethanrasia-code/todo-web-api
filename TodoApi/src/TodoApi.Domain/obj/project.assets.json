@@ -14,11 +14,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\cheth\\source\\repos\\TodoApi\\TodoApi\\src\\TodoApi.Domain\\TodoApi.Domain.csproj",
+      "projectUniqueName": "C:\\Users\\cheth\\source\\repos\\todo-web-api\\TodoApi\\src\\TodoApi.Domain\\TodoApi.Domain.csproj",
       "projectName": "TodoApi.Domain",
-      "projectPath": "C:\\Users\\cheth\\source\\repos\\TodoApi\\TodoApi\\src\\TodoApi.Domain\\TodoApi.Domain.csproj",
+      "projectPath": "C:\\Users\\cheth\\source\\repos\\todo-web-api\\TodoApi\\src\\TodoApi.Domain\\TodoApi.Domain.csproj",
       "packagesPath": "C:\\Users\\cheth\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\cheth\\source\\repos\\TodoApi\\TodoApi\\src\\TodoApi.Domain\\obj\\",
+      "outputPath": "C:\\Users\\cheth\\source\\repos\\todo-web-api\\TodoApi\\src\\TodoApi.Domain\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"

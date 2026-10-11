@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "qkLRkqDImaM=",
+  "dgSpecHash": "guvOI//IhnA=",
   "success": true,
-  "projectFilePath": "C:\\Users\\cheth\\source\\repos\\TodoApi\\TodoApi\\src\\TodoApi.Domain\\TodoApi.Domain.csproj",
+  "projectFilePath": "C:\\Users\\cheth\\source\\repos\\todo-web-api\\TodoApi\\src\\TodoApi.Domain\\TodoApi.Domain.csproj",
   "expectedPackageFiles": [],
   "logs": []
 }
