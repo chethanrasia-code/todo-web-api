@@ -361,3 +361,4 @@ MigrationBackup/
 
 # Fody - auto-generated XML schema
 FodyWeavers.xsd
+/TodoApi/src/TodoApi.Api/obj/Debug/net10.0/TodoApi.Api.AssemblyInfo.cs
