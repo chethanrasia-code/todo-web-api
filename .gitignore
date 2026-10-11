@@ -32,6 +32,10 @@ bld/
 [Oo]ut/
 [Ll]og/
 [Ll]ogs/
+bin/
+obj/
+out/
+publish/
 
 # Visual Studio 2015/2017 cache/options directory
 .vs/
@@ -362,3 +366,46 @@ MigrationBackup/
 # Fody - auto-generated XML schema
 FodyWeavers.xsd
 /TodoApi/src/TodoApi.Api/obj/Debug/net10.0/TodoApi.Api.AssemblyInfo.cs
+
+# Visual Studio / .NET
+.vs/
+*.user
+*.suo
+*.userosscache
+*.sln.docstates
+
+# Build results
+bin/
+obj/
+out/
+publish/
+
+# NuGet
+*.nupkg
+packages/
+.nuget/
+
+# Rider / ReSharper
+.idea/
+_ReSharper*/
+*.DotSettings.user
+
+# Visual Studio Code
+.vscode/
+
+# Logs, databases, secrets
+*.log
+*.sqlite
+*.db
+*.bak
+*.env
+.env.*
+secrets.json
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Temporary files
+*.tmp
+*.temp

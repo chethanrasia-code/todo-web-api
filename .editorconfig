@@ -1,0 +1,17 @@
+root = true
+
+[*.cs]
+# Default analyzer severity for this repo
+dotnet_analyzer_diagnostic.severity = warning
+
+# Treat security-category diagnostics as warnings by default
+dotnet_analyzer_diagnostic.category-Security.severity = warning
+
+# Make design suggestions less intrusive
+dotnet_analyzer_diagnostic.category-Design.severity = suggestion
+
+# Example: prefer expression-bodied members where reasonable
+dotnet_style_prefer_expression_bodied_methods = true:suggestion
+
+# You can override individual rules here, for example:
+# dotnet_diagnostic.CA2007.severity = none

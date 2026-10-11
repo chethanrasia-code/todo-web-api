@@ -1,0 +1,15 @@
+<Project>
+  <PropertyGroup>
+	<!-- Use the latest available analyzer rules included with the SDK -->
+	<AnalysisLevel>latest</AnalysisLevel>
+	<!-- Enable IDE code-style enforcement during build -->
+	<EnforceCodeStyleInBuild>true</EnforceCodeStyleInBuild>
+	<!-- Set to true to fail builds on analyzer warnings (optional) -->
+	<TreatWarningsAsErrors>false</TreatWarningsAsErrors>
+  </PropertyGroup>
+
+  <ItemGroup>
+	<!-- Apply Microsoft Roslyn analyzers to all projects in the repo -->
+	<PackageReference Include="Microsoft.CodeAnalysis.NetAnalyzers" Version="7.*" PrivateAssets="all" />
+  </ItemGroup>
+</Project>
