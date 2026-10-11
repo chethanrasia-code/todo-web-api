@@ -1,0 +1,13 @@
+C:\Users\cheth\source\repos\TodoApi\TodoApi\src\TodoApi.Domain\bin\Debug\net10.0\TodoApi.Domain.deps.json
+C:\Users\cheth\source\repos\TodoApi\TodoApi\src\TodoApi.Domain\bin\Debug\net10.0\TodoApi.Domain.dll
+C:\Users\cheth\source\repos\TodoApi\TodoApi\src\TodoApi.Domain\bin\Debug\net10.0\TodoApi.Domain.pdb
+C:\Users\cheth\source\repos\TodoApi\TodoApi\src\TodoApi.Domain\obj\Debug\net10.0\TodoApi.Domain.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\cheth\source\repos\TodoApi\TodoApi\src\TodoApi.Domain\obj\Debug\net10.0\TodoApi.Domain.AssemblyInfoInputs.cache
+C:\Users\cheth\source\repos\TodoApi\TodoApi\src\TodoApi.Domain\obj\Debug\net10.0\TodoApi.Domain.AssemblyInfo.cs
+C:\Users\cheth\source\repos\TodoApi\TodoApi\src\TodoApi.Domain\obj\Debug\net10.0\TodoApi.Domain.csproj.CoreCompileInputs.cache
+C:\Users\cheth\source\repos\TodoApi\TodoApi\src\TodoApi.Domain\obj\Debug\net10.0\TodoApi.Domain.sourcelink.json
+C:\Users\cheth\source\repos\TodoApi\TodoApi\src\TodoApi.Domain\obj\Debug\net10.0\TodoApi.Domain.dll
+C:\Users\cheth\source\repos\TodoApi\TodoApi\src\TodoApi.Domain\obj\Debug\net10.0\refint\TodoApi.Domain.dll
+C:\Users\cheth\source\repos\TodoApi\TodoApi\src\TodoApi.Domain\obj\Debug\net10.0\TodoApi.Domain.pdb
+C:\Users\cheth\source\repos\TodoApi\TodoApi\src\TodoApi.Domain\obj\Debug\net10.0\ref\TodoApi.Domain.dll
+C:\Users\cheth\source\repos\TodoApi\TodoApi\src\TodoApi.Domain\obj\Debug\net10.0\TodoApi..A3EA9D76.Up2Date

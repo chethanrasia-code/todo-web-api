@@ -1,0 +1,9 @@
+bin/
+obj/
+.git/
+.vs/
+**/bin/
+**/obj/
+Dockerfile.user
+README.md
+*.md

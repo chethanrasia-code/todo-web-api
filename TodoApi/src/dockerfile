@@ -1,0 +1,25 @@
+FROM mcr.microsoft.com/dotnet/aspnet:10.0 AS base
+WORKDIR /app
+EXPOSE 8080
+ENV ASPNETCORE_HTTP_PORTS=8080
+
+FROM mcr.microsoft.com/dotnet/sdk:10.0 AS build
+WORKDIR /src
+
+# Copy project files first for fast restore-layer caching
+COPY ["TodoApi.Api/TodoApi.Api.csproj", "TodoApi.Api/"]
+COPY ["TodoApi.Application/TodoApi.Application.csproj", "TodoApi.Application/"]
+COPY ["TodoApi.Domain/TodoApi.Domain.csproj", "TodoApi.Domain/"]
+COPY ["TodoApi.Infrastructure/TodoApi.Infrastructure.csproj", "TodoApi.Infrastructure/"]
+
+RUN dotnet restore "TodoApi.Api/TodoApi.Api.csproj"
+
+# Copy source and publish
+COPY . .
+WORKDIR /src/TodoApi.Api
+RUN dotnet publish "TodoApi.Api.csproj" -c Release -o /app/publish --no-restore
+
+FROM base AS final
+WORKDIR /app
+COPY --from=build /app/publish .
+ENTRYPOINT ["dotnet", "TodoApi.Api.dll"]
