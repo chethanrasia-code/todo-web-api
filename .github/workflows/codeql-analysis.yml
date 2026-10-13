@@ -11,15 +11,15 @@ jobs:
     runs-on: ubuntu-latest
     permissions:
       actions: read
-      contents: write            # 👈 Required so the DORA tool can log metrics to your repository
+      contents: write            # Required so the DORA tool can output metric summaries
       security-events: write
     steps:
     - uses: actions/checkout@v4
       with:
-        fetch-depth: 0           # 👈 Fetches full git history so DORA can calculate time since commit
+        fetch-depth: 0           # Crucial: fetches full git history so DORA can calculate commit age
         
     - name: Initialize CodeQL
-      uses: github/codeql-action/init@v3  # Updated to v3 🚀
+      uses: github/codeql-action/init@v3  
       with:
         languages: csharp
         
@@ -35,12 +35,20 @@ jobs:
       run: dotnet build TodoApi/TodoApi.sln --configuration Release --no-restore
       
     - name: Perform CodeQL Analysis
-      uses: github/codeql-action/analyze@v3  # Updated to v3 🚀
+      uses: github/codeql-action/analyze@v3  
 
-    # 👇 Triggers DORA logging only on a successful merge/push to the main branch
-    - name: Log DORA Deployment & Lead Time
+    # 👇 TRACK DEPLOYMENT FREQUENCY 
+    - name: Calculate DORA Deployment Frequency
       if: github.ref == 'refs/heads/main' && github.event_name == 'push'
-      uses: dkershner6/github-action-dora-metrics@v1
+      uses: DeveloperMetrics/deployment-frequency@main  # 🚀 Active Marketplace Action
       with:
-        gh-token: ${{ secrets.GITHUB_TOKEN }}
-        default-branch: "main"
+        workflows: 'CodeQL & DORA Tracking'             # Matches the exact name of this file
+        actions-token: "${{ secrets.GITHUB_TOKEN }}"
+
+    # 👇 TRACK LEAD TIME FOR CHANGES
+    - name: Calculate DORA Lead Time for Changes
+      if: github.ref == 'refs/heads/main' && github.event_name == 'push'
+      uses: DeveloperMetrics/lead-time-for-changes@main  # 🚀 Active Marketplace Action
+      with:
+        workflows: 'CodeQL & DORA Tracking'             # Matches the exact name of this file
+        actions-token: "${{ secrets.GITHUB_TOKEN }}"
