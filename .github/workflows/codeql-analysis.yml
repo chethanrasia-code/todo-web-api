@@ -11,15 +11,15 @@ jobs:
     runs-on: ubuntu-latest
     permissions:
       actions: read
-      contents: write            # 👈 Changed from 'read' to 'write' so the DORA tool can save metrics
+      contents: write            # 👈 Required so the DORA tool can log metrics to your repository
       security-events: write
     steps:
     - uses: actions/checkout@v4
       with:
-        fetch-depth: 0           # 👈 Crucial: DORA metrics need full git history to calculate commit times
+        fetch-depth: 0           # 👈 Fetches full git history so DORA can calculate time since commit
         
     - name: Initialize CodeQL
-      uses: github/codeql-action/init@v2
+      uses: github/codeql-action/init@v3  # Updated to v3 🚀
       with:
         languages: csharp
         
@@ -35,11 +35,11 @@ jobs:
       run: dotnet build TodoApi/TodoApi.sln --configuration Release --no-restore
       
     - name: Perform CodeQL Analysis
-      uses: github/codeql-action/analyze@v2
+      uses: github/codeql-action/analyze@v3  # Updated to v3 🚀
 
-    # 👇 ADD THIS STEP AT THE END OF YOUR WORKFLOW
+    # 👇 Triggers DORA logging only on a successful merge/push to the main branch
     - name: Log DORA Deployment & Lead Time
-      if: github.ref == 'refs/heads/main' && github.event_name == 'push' # 👈 Only log when code actually merges to main
+      if: github.ref == 'refs/heads/main' && github.event_name == 'push'
       uses: dkershner6/github-action-dora-metrics@v1
       with:
         gh-token: ${{ secrets.GITHUB_TOKEN }}
